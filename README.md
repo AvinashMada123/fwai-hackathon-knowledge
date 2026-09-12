@@ -48,7 +48,8 @@ Every time you want to answer questions during a call:
    ```bash
    claude
    ```
-4. Ask your question in plain language, e.g. "someone's asking why their submission got capped at 5 out of 100" or "what time is Sunday's session." Claude will answer from the knowledge files.
+4. Paste the starter prompt from [START-PROMPT.md](START-PROMPT.md) as your first message — it puts Claude in "answer live questions" mode for the rest of the call.
+5. Then just paste each participant's question as it comes in, e.g. "someone's asking why their submission got capped at 5 out of 100" or "what time is Sunday's session." Claude will answer from the knowledge files.
 
 You can leave this terminal window open throughout a call and keep asking follow-up questions.
 
