@@ -23,33 +23,21 @@ npm install -g @anthropic-ai/claude-code
 
 This needs Node.js installed first. If `npm` isn't recognized, install Node from [nodejs.org](https://nodejs.org) first, then re-run the command above.
 
-**2. Clone this repository:**
+**2. Accept the GitHub collaborator invite** for this repo (check your email, or visit [github.com/AvinashMada123/fwai-hackathon-knowledge/invitations](https://github.com/AvinashMada123/fwai-hackathon-knowledge/invitations)). This is a **private** repo, so you need this before you can clone it.
 
-```bash
-git clone https://github.com/AvinashMada123/fwai-hackathon-knowledge.git
-cd fwai-hackathon-knowledge
-```
+**3. Make sure git can access your GitHub account** — run `gh auth login` once if you have the GitHub CLI, or just proceed to the next step and follow the sign-in prompt it gives you.
 
-This is a **private** repository — Animesh needs to add your GitHub account as a collaborator first (Settings → Collaborators on the repo), and you'll need to be logged into GitHub (via `git` credentials or the GitHub CLI) for the clone to work.
-
-**3. Log in to Claude Code** (one-time, opens a browser to sign in with your Claude account):
-
-```bash
-claude
-```
+You do **not** need to manually clone the repo — the starter prompt below does that for you.
 
 ## Day-to-day use
 
-Every time you want to answer questions during a call:
-
-1. Open a terminal.
-2. `cd` into the cloned folder.
-3. Run:
+1. Open a terminal, `cd` to wherever you keep this kind of thing (e.g. your Desktop or home folder).
+2. Run:
    ```bash
    claude
    ```
-4. Paste the starter prompt from [START-PROMPT.md](START-PROMPT.md) as your first message — it puts Claude in "answer live questions" mode for the rest of the call.
-5. Then just paste each participant's question as it comes in, e.g. "someone's asking why their submission got capped at 5 out of 100" or "what time is Sunday's session." Claude will answer from the knowledge files.
+3. Paste the full prompt from [START-PROMPT.md](START-PROMPT.md) as your first message. It clones the repo the first time (or pulls the latest version if it's already there), loads the knowledge base, and puts Claude in "answer live questions" mode.
+4. Then just paste each participant's question as it comes in, e.g. "someone's asking why their submission got capped at 5 out of 100" or "what time is Sunday's session." Claude will answer from the knowledge files.
 
 You can leave this terminal window open throughout a call and keep asking follow-up questions.
 
