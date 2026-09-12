@@ -26,11 +26,11 @@ This needs Node.js installed first. If `npm` isn't recognized, install Node from
 **2. Clone this repository:**
 
 ```bash
-git clone <REPO_URL>
-cd <REPO_FOLDER_NAME>
+git clone https://github.com/AvinashMada123/fwai-hackathon-knowledge.git
+cd fwai-hackathon-knowledge
 ```
 
-(You'll get `<REPO_URL>` once Animesh adds you as a collaborator on the private repo and shares the link.)
+This is a **private** repository — Animesh needs to add your GitHub account as a collaborator first (Settings → Collaborators on the repo), and you'll need to be logged into GitHub (via `git` credentials or the GitHub CLI) for the clone to work.
 
 **3. Log in to Claude Code** (one-time, opens a browser to sign in with your Claude account):
 
